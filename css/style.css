@@ -1,0 +1,128 @@
+h2 {
+    font-weight: bold;
+    font-size: xx-large;
+}
+/* Navigation */
+
+.navbar {
+    padding: 1% 10%;
+    background-color: #4B8807;
+}
+
+.nav-item {
+    font-weight: bold;
+    font-size: x-large;
+    padding-left: 3%;
+}
+
+/* Title */
+#title {
+    padding-top: 6%;
+    position: relative;
+    text-align: center;
+}
+
+/* Container holding the image and the text */
+.title-text {
+    font-weight: bold;
+    color: white;
+    padding-bottom: 1%;
+}
+
+/* Centered text */
+.centered {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Mission */
+#mission {
+    text-align: center;
+    padding: 8% 5% 0%;
+    color:#4B8807;
+    font-weight:900;
+}
+
+.mission-list {
+    padding: 5% 5%
+}
+
+.mission-text {
+    margin-top: 10%;
+    font-size: large;
+}
+
+#members {
+    background-color: #BADAEC;
+    color: #0139EE;
+    text-align: center;
+    padding: 8% 5% 0%;
+}
+.carousel-item {
+    padding: 2% 20%
+}
+
+.member-image  {
+    max-height: 90vh;
+    max-width: 40vh;
+    float: right;
+    margin: 0% 10%;
+}
+
+.member-text {
+    font-weight: bold;
+    font-size:medium;
+    text-align: left;
+}
+
+#projects {
+    color:black;
+    text-align: center;
+    padding: 8% 5% 0%;
+}
+
+.project-image  {
+    height: 480px;
+    width: 640px;
+    margin-bottom: 5%;
+}
+
+.project-video  {
+    height: 480px;
+    width: 640px;
+    margin-bottom: 5%;
+}
+.project-text {
+    font-weight: bold;
+    font-size:medium;
+    text-align: left;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+#events {
+    background-color: #BADAEC;
+    color: #0139EE;
+    text-align: center;
+    padding: 8% 5% 2%;
+}
+
+.card-text {
+    text-align: left;
+}
+
+.card-deck {
+    margin-top: 3%;
+}
+
+.footer {
+    background-color: #4B8807;
+    padding: 2% 0%
+}
+
